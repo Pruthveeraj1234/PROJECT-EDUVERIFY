@@ -1,18 +1,32 @@
 from django import forms
+from .models import UserVerification, College
 
-class VerificationForm(forms.Form):
-    user_type = forms.ChoiceField(choices=[('student', 'Student'), ('employee', 'Employee')])
-    name = forms.CharField(max_length=255)
-    email = forms.EmailField()
-    contact = forms.CharField(max_length=20)
-    college_name = forms.CharField(max_length=255, required=False)
-    college_id = forms.CharField(max_length=255, required=False)
-    government_id = forms.CharField(max_length=255)
-    college_id_photo = forms.FileField(required=True)
-    gov_id_photo = forms.FileField(required=True)
-    selfie = forms.ImageField(required=True)
-    ssc_certificate = forms.FileField(required=True)
-    graduate_certificate = forms.FileField(required=False)
+class UserVerificationForm(forms.ModelForm):
+    class Meta:
+        model = UserVerification
+        fields = [
+            'user_type',
+            'name',
+            'email',
+            'contact',
+            'college_name',
+            'college_id',
+            'government_id',
+            'college_id_photo',
+            'gov_id_photo',
+            'selfie',
+            'ssc_certificate',
+            'graduate_certificate',
+        ]
+        widgets = {
+            'user_type': forms.Select(attrs={'class': 'form-control'}),
+            'name': forms.TextInput(attrs={'class': 'form-control'}),
+            'email': forms.EmailInput(attrs={'class': 'form-control'}),
+            'contact': forms.TextInput(attrs={'class': 'form-control'}),
+            'college_name': forms.TextInput(attrs={'class': 'form-control'}),
+            'college_id': forms.TextInput(attrs={'class': 'form-control'}),
+            'government_id': forms.TextInput(attrs={'class': 'form-control'}),
+        }
 
     def clean(self):
         cleaned_data = super().clean()
@@ -26,7 +40,9 @@ class VerificationForm(forms.Form):
                 self.add_error('college_name', 'College name is required for students.')
             if not college_id:
                 self.add_error('college_id', 'College ID is required for students.')
+
         elif user_type == "employee":
             if not graduate_certificate:
                 self.add_error('graduate_certificate', 'Graduate certificate is required for employees.')
+
         return cleaned_data
