@@ -1,5 +1,5 @@
 from django import forms
-from .models import UserVerification, College
+from .models import UserVerification
 
 class UserVerificationForm(forms.ModelForm):
     class Meta:
@@ -11,12 +11,11 @@ class UserVerificationForm(forms.ModelForm):
             'contact',
             'college_name',
             'college_id',
-            'government_id',
-            'college_id_photo',
-            'gov_id_photo',
-            'selfie',
+            'digilocker_govt_doc_id',
+            'digilocker_ssc_doc_id',
             'ssc_certificate',
             'graduate_certificate',
+            'selfie',
         ]
         widgets = {
             'user_type': forms.Select(attrs={'class': 'form-control'}),
@@ -25,7 +24,8 @@ class UserVerificationForm(forms.ModelForm):
             'contact': forms.TextInput(attrs={'class': 'form-control'}),
             'college_name': forms.TextInput(attrs={'class': 'form-control'}),
             'college_id': forms.TextInput(attrs={'class': 'form-control'}),
-            'government_id': forms.TextInput(attrs={'class': 'form-control'}),
+            'digilocker_govt_doc_id': forms.TextInput(attrs={'class': 'form-control'}),
+            'digilocker_ssc_doc_id': forms.TextInput(attrs={'class': 'form-control'}),
         }
 
     def clean(self):
@@ -34,6 +34,8 @@ class UserVerificationForm(forms.ModelForm):
         college_name = cleaned_data.get("college_name")
         college_id = cleaned_data.get("college_id")
         graduate_certificate = cleaned_data.get("graduate_certificate")
+        digilocker_ssc_doc_id = cleaned_data.get("digilocker_ssc_doc_id")
+        ssc_certificate = cleaned_data.get("ssc_certificate")
 
         if user_type == "student":
             if not college_name:
@@ -41,8 +43,10 @@ class UserVerificationForm(forms.ModelForm):
             if not college_id:
                 self.add_error('college_id', 'College ID is required for students.')
 
-        elif user_type == "employee":
-            if not graduate_certificate:
-                self.add_error('graduate_certificate', 'Graduate certificate is required for employees.')
+        if user_type == "employee" and not graduate_certificate:
+            self.add_error('graduate_certificate', 'Graduate certificate is required for employees.')
+
+        if not digilocker_ssc_doc_id and not ssc_certificate:
+            self.add_error('ssc_certificate', 'SSC certificate or DigiLocker document ID is required.')
 
         return cleaned_data

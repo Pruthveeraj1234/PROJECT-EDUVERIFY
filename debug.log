@@ -428,3 +428,274 @@ DEBUG 2025-05-19 11:17:23,696 __init__ Creating converter from 7 to 5
 DEBUG 2025-05-19 11:17:23,696 __init__ Creating converter from 5 to 7
 WARNING 2025-05-19 11:17:25,580 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
 
+INFO 2025-05-19 11:22:00,408 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-19 11:22:01,980 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-19 11:22:02,351 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 11:22:02,351 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-19 11:22:02,351 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 11:22:02,351 __init__ Creating converter from 5 to 7
+WARNING 2025-05-19 11:22:04,281 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-19 11:31:23,975 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-19 11:31:25,891 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-19 11:31:26,341 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 11:31:26,341 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-19 11:31:26,341 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 11:31:26,341 __init__ Creating converter from 5 to 7
+WARNING 2025-05-19 11:31:28,385 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+WARNING 2025-05-19 11:32:05,804 log Not Found: /
+WARNING 2025-05-19 11:32:05,895 log Not Found: /favicon.ico
+WARNING 2025-05-19 11:32:14,115 log Not Found: /verification
+WARNING 2025-05-19 11:32:22,297 log Method Not Allowed (GET): /verification/verify/
+DEBUG 2025-05-19 12:54:26,811 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-19 12:54:27,317 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 12:54:27,317 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-19 12:54:27,317 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 12:54:27,317 __init__ Creating converter from 5 to 7
+WARNING 2025-05-19 12:54:29,145 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-19 12:54:41,855 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-19 12:54:42,139 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 12:54:42,139 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-19 12:54:42,139 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 12:54:42,139 __init__ Creating converter from 5 to 7
+WARNING 2025-05-19 12:54:43,561 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-19 12:55:10,682 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-19 12:55:11,770 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-19 12:55:12,025 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 12:55:12,025 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-19 12:55:12,025 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-19 12:55:12,025 __init__ Creating converter from 5 to 7
+WARNING 2025-05-19 12:55:13,437 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 13:53:42,248 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:53:42,739 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:53:42,739 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:53:42,739 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:53:42,739 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:53:44,513 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 13:54:14,227 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:54:14,480 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:54:14,480 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:54:14,480 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:54:14,480 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:54:15,863 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-20 13:54:24,241 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-20 13:54:25,292 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:54:25,547 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:54:25,547 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:54:25,547 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:54:25,547 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:54:26,896 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-20 13:55:59,932 autoreload C:\Users\PRUTHVEE RAJ\PROJECT\verification\models.py changed, reloading.
+INFO 2025-05-20 13:56:00,697 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-20 13:56:01,794 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:56:02,121 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:56:02,121 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:56:02,121 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:56:02,121 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:56:03,571 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-20 13:57:29,098 autoreload C:\Users\PRUTHVEE RAJ\PROJECT\verification\models.py changed, reloading.
+INFO 2025-05-20 13:57:30,040 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-20 13:57:31,182 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:57:31,500 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:57:31,500 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:57:31,500 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:57:31,500 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:57:33,114 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 13:57:49,661 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:57:49,910 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:57:49,910 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:57:49,910 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:57:49,910 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:57:51,316 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 13:58:03,895 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:58:04,151 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:58:04,151 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:58:04,151 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:58:04,151 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:58:05,567 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-20 13:58:19,002 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-20 13:58:20,074 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 13:58:20,346 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:58:20,346 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 13:58:20,346 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 13:58:20,346 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 13:58:21,680 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 23:23:49,669 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 23:23:50,193 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:23:50,193 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 23:23:50,193 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:23:50,193 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 23:23:52,040 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 23:24:40,104 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 23:24:40,365 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:24:40,365 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 23:24:40,365 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:24:40,365 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 23:24:41,796 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-20 23:24:53,102 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 23:24:53,366 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:24:53,366 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 23:24:53,366 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:24:53,366 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 23:24:54,740 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-20 23:25:06,993 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-20 23:25:08,070 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-20 23:25:08,337 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:25:08,337 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-20 23:25:08,337 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-20 23:25:08,337 __init__ Creating converter from 5 to 7
+WARNING 2025-05-20 23:25:09,779 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-21 10:44:04,550 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-21 10:44:05,057 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-21 10:44:05,057 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-21 10:44:05,057 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-21 10:44:05,057 __init__ Creating converter from 5 to 7
+WARNING 2025-05-21 10:44:06,854 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-21 10:44:25,921 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-21 10:44:26,176 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-21 10:44:26,176 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-21 10:44:26,176 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-21 10:44:26,176 __init__ Creating converter from 5 to 7
+WARNING 2025-05-21 10:44:27,569 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-21 10:44:42,274 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-21 10:44:43,332 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-21 10:44:43,604 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-21 10:44:43,604 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-21 10:44:43,604 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-21 10:44:43,604 __init__ Creating converter from 5 to 7
+WARNING 2025-05-21 10:44:44,997 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-22 09:16:41,603 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-22 09:16:42,123 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-22 09:16:42,123 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-22 09:16:42,123 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-22 09:16:42,123 __init__ Creating converter from 5 to 7
+WARNING 2025-05-22 09:16:43,867 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-05-22 09:16:54,802 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-22 09:16:55,064 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-22 09:16:55,064 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-22 09:16:55,064 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-22 09:16:55,064 __init__ Creating converter from 5 to 7
+WARNING 2025-05-22 09:16:56,414 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-05-22 09:17:13,139 autoreload Watching for file changes with StatReloader
+DEBUG 2025-05-22 09:17:14,230 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-05-22 09:17:14,484 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-22 09:17:14,484 __init__ Creating converter from 5 to 7
+DEBUG 2025-05-22 09:17:14,484 __init__ Creating converter from 7 to 5
+DEBUG 2025-05-22 09:17:14,484 __init__ Creating converter from 5 to 7
+WARNING 2025-05-22 09:17:15,857 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-06-02 22:53:54,976 autoreload Watching for file changes with StatReloader
+DEBUG 2025-06-02 22:54:15,930 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-02 22:54:19,014 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-02 22:54:19,014 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-02 22:54:19,014 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-02 22:54:19,014 __init__ Creating converter from 5 to 7
+WARNING 2025-06-02 22:54:25,951 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 13:03:32,091 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 13:03:32,984 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 13:03:32,984 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 13:03:32,984 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 13:03:32,984 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 13:03:36,018 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 13:05:43,530 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 13:05:43,886 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 13:05:43,886 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 13:05:43,886 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 13:05:43,886 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 13:05:45,886 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 20:38:33,704 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 20:38:34,796 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:38:34,796 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 20:38:34,796 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:38:34,796 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 20:38:40,371 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 20:43:26,411 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 20:43:26,774 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:43:26,774 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 20:43:26,774 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:43:26,774 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 20:43:28,853 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-06-03 20:43:40,431 autoreload Watching for file changes with StatReloader
+DEBUG 2025-06-03 20:43:41,961 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 20:43:42,320 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:43:42,320 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 20:43:42,320 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:43:42,320 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 20:43:44,341 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 20:58:48,263 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 20:58:48,684 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:58:48,684 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 20:58:48,684 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 20:58:48,684 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 20:58:50,745 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 21:04:03,564 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 21:04:04,010 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:04:04,010 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 21:04:04,010 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:04:04,010 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 21:04:05,975 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 21:05:32,604 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 21:05:32,963 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:05:32,963 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 21:05:32,963 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:05:32,963 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 21:05:35,310 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 21:07:37,544 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 21:07:37,923 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:07:37,923 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 21:07:37,923 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:07:37,923 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 21:07:40,276 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 21:12:16,212 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 21:12:16,578 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:12:16,578 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 21:12:16,578 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:12:16,578 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 21:12:18,597 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+DEBUG 2025-06-03 21:12:28,373 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 21:12:28,745 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:12:28,745 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 21:12:28,745 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:12:28,745 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 21:12:30,713 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+
+INFO 2025-06-03 21:12:44,084 autoreload Watching for file changes with StatReloader
+DEBUG 2025-06-03 21:12:45,658 tpu_cluster_resolver Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+DEBUG 2025-06-03 21:12:46,011 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:12:46,011 __init__ Creating converter from 5 to 7
+DEBUG 2025-06-03 21:12:46,011 __init__ Creating converter from 7 to 5
+DEBUG 2025-06-03 21:12:46,011 __init__ Creating converter from 5 to 7
+WARNING 2025-06-03 21:12:48,062 module_wrapper From C:\Users\PRUTHVEE RAJ\PROJECT\eduVenv310\lib\site-packages\tf_keras\src\losses.py:2976: The name tf.losses.sparse_softmax_cross_entropy is deprecated. Please use tf.compat.v1.losses.sparse_softmax_cross_entropy instead.
+

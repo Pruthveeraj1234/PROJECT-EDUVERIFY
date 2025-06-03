@@ -30,3 +30,6 @@ media/
 # OS files
 .DS_Store
 Thumbs.db
+
+verification/migrations/*.py
+!verification/migrations/__init__.py

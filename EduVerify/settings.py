@@ -11,11 +11,9 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", default=False, cast=bool)
 
-
 # Manually cast to list to prevent error
 ALLOWED_HOSTS_RAW = config("ALLOWED_HOSTS", default="127.0.0.1,localhost")
 ALLOWED_HOSTS = [host.strip() for host in ALLOWED_HOSTS_RAW.split(",") if host.strip()]
-
 
 # Application definition
 INSTALLED_APPS = [
@@ -139,3 +137,8 @@ BLUR_THRESHOLD = config("BLUR_THRESHOLD", default=100, cast=int)
 
 BUBBLE_API_URL = config("BUBBLE_API_URL", default="")
 BUBBLE_API_KEY = config("BUBBLE_API_KEY", default="")
+
+# DigiLocker integration credentials
+DIGILOCKER_CLIENT_ID = config("DIGILOCKER_CLIENT_ID", default="")
+DIGILOCKER_CLIENT_SECRET = config("DIGILOCKER_CLIENT_SECRET", default="")
+DIGILOCKER_REDIRECT_URI = config("DIGILOCKER_REDIRECT_URI", default="")
