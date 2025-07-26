@@ -1,6 +1,6 @@
 import os
 from pathlib import Path
-from decouple import config, Csv
+from decouple import config
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -11,9 +11,13 @@ SECRET_KEY = config("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = config("DEBUG", default=False, cast=bool)
 
-# Manually cast to list to prevent error
+# Parse ALLOWED_HOSTS from .env, split and strip whitespace
 ALLOWED_HOSTS_RAW = config("ALLOWED_HOSTS", default="127.0.0.1,localhost")
 ALLOWED_HOSTS = [host.strip() for host in ALLOWED_HOSTS_RAW.split(",") if host.strip()]
+
+# Just to be extra safe, ensure 'testserver' is in ALLOWED_HOSTS for test client requests
+if "testserver" not in ALLOWED_HOSTS:
+    ALLOWED_HOSTS.append("testserver")
 
 # Application definition
 INSTALLED_APPS = [
@@ -130,7 +134,7 @@ LOGGING = {
     },
 }
 
-# Custom threshold and service configuration
+# Custom thresholds and service config
 SIMILARITY_THRESHOLD = config("SIMILARITY_THRESHOLD", default=0.85, cast=float)
 FACE_THRESHOLD = config("FACE_THRESHOLD", default=0.5, cast=float)
 BLUR_THRESHOLD = config("BLUR_THRESHOLD", default=100, cast=int)

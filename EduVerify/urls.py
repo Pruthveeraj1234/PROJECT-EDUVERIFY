@@ -2,11 +2,10 @@ from django.contrib import admin
 from django.urls import path, include
 from django.conf import settings
 from django.conf.urls.static import static
-from django.http import HttpResponse
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('verification/', include('verification.urls')),  # ✅ includes app URLs at /verification/
+    path('verification/', include('verification.urls')),  # include app URLs here
 ]
 
 if settings.DEBUG:

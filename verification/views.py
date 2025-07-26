@@ -4,7 +4,6 @@ import logging
 import mimetypes
 import cv2
 import pytesseract
-import numpy as np
 from PIL import Image
 from difflib import SequenceMatcher
 from pdf2image import convert_from_path
@@ -90,6 +89,9 @@ def send_to_bubble(data):
 @require_POST
 def verify(request):
     try:
+        if request.content_type != 'multipart/form-data':
+            return HttpResponse("Content-Type must be multipart/form-data", status=400)
+
         form = request.POST
         files = request.FILES
 
@@ -177,9 +179,6 @@ def verify(request):
         if is_blurry(file_paths["selfie"]):
             return HttpResponse("Selfie is too blurry to process. Please re-upload a clearer photo.", status=400)
 
-        # Skip government ID photo and face match since it's from DigiLocker
-        # So selfie verification against government ID is disabled
-
         bubble_data = {
             "name": name,
             "email": email,
@@ -208,19 +207,16 @@ def verify(request):
 @csrf_exempt
 @require_POST
 def verify_digilocker(request):
-    # Alias for verify to fix URL pattern error
     return verify(request)
 
 
 @csrf_exempt
 @require_POST
 def verify_manual(request):
-    # Placeholder or implementation for manual verification endpoint
     return HttpResponse("Manual verification endpoint - to be implemented")
 
 
 @csrf_exempt
 @require_POST
 def verify_ssc_manual(request):
-    # Placeholder or implementation for SSC manual verification endpoint
     return HttpResponse("SSC manual verification endpoint - to be implemented")
