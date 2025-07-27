@@ -14,6 +14,9 @@ from django.views.decorators.http import require_POST
 from django.core.files.storage import FileSystemStorage
 from deepface import DeepFace
 from decouple import config
+from .digilocker import generate_digilocker_auth_url, exchange_code_for_token, fetch_user_files
+from django.http import HttpResponseRedirect, JsonResponse
+
 
 logger = logging.getLogger(__name__)
 
@@ -220,3 +223,20 @@ def verify_manual(request):
 @require_POST
 def verify_ssc_manual(request):
     return HttpResponse("SSC manual verification endpoint - to be implemented")
+
+def digilocker_login(request):
+    url = generate_digilocker_auth_url()
+    return HttpResponseRedirect(url)
+
+def digilocker_callback(request):
+    code = request.GET.get("code")
+    token_data = exchange_code_for_token(code)
+
+    access_token = token_data.get("access_token")
+    if access_token:
+        files = fetch_user_files(access_token)
+        # You can log, store, or return this data
+        return JsonResponse({"files": files})
+    else:
+        return JsonResponse({"error": "Failed to get access token"}, status=400)
+
